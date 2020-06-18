@@ -3,25 +3,16 @@ segundo = ARGV[1].to_i
 tercero = ARGV[2].to_i
 
 
-if primero >= segundo 
-    if primero >= tercero
+if primero >= segundo && primero >= tercero
         puts primero
-    end
-
 end
 
-if segundo > primero 
-    if segundo >= tercero
+if segundo > primero && segundo >= tercero
         puts segundo
-    end
-
 end
 
-if tercero > primero 
-    if tercero > segundo
+if tercero > primero && tercero > segundo
         puts tercero
-    end
-
 end
 
 
